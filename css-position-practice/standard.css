@@ -1,0 +1,69 @@
+html,
+body{
+    background-color:bisque;
+}
+
+.static{
+    border: 1px solid red;
+    background-color: white;
+    padding: 5px;
+    position:static;
+}
+
+.relative1{
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.relative2{
+    border: 1px solid blue;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 70vw;
+    position: relative;
+    left: 50px;
+    top: -30px;
+}
+
+.fixed{
+    border: 1px solid yellow;
+    background-color: white;
+    padding: 5px;
+    position: fixed;
+    width: 20vw;
+    bottom: 0;
+    right: 0;
+}
+
+.relative3{
+    position: relative;
+    border: 1px solid orange;
+    width: 65vw;
+    height: 70vh;
+    padding: 5px;
+}
+
+.absolute{
+    border: 1px solid hotpink;
+    width: 30vw;
+    height: 40vh;
+    background-color: white;
+    padding: 5px;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    line-height: 1;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+}
