@@ -183,6 +183,7 @@ h5 {
     color: #4568c9;
     font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 strong {
@@ -196,19 +197,27 @@ em {
 
 a {
     color:#6c89db ;
+    text-decoration: none;
 }
 
 a:hover {
     color: #a9b2b9
 }
 
+p a {
+    border-bottom: 1px solid #dfe2e5;
+}
+
 .tagline {
     margin: 66px 0 22px 0;
+    text-align: right;
 }
 
 .primary-nav {
     font-size: 14px;
     font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 .btn {
     border-radius: 5px;
@@ -223,6 +232,7 @@ a:hover {
 .hero {
     line-height: 44px;
     padding: 22px 80px 66px 80px;
+    text-align: center;
 }
 
 .hero h2 {
@@ -231,6 +241,7 @@ a:hover {
 
 .hero p {
     font-size: 24px;
+    font-weight: 100;
 }
 
 .teaser a:hover h3 {
@@ -305,4 +316,13 @@ Primary footer
 body{
     color: #273a6e;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Nue", Helbetica, Arial, san-serif;
+}
+/*
+
+navigation
+
+*/
+
+.nav {
+    text-align: right;
 }
