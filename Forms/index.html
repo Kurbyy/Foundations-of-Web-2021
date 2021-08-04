@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Practice</title>
+        
+        <style>
+
+            form{
+                background-color: beige;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            label{
+                color: brown;
+            }
+
+            .sign-up{
+                border-top: 2px solid gray;
+                padding-top: 15px;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <h2>Create an Account</h2>
+
+        <form action="/Form-Practice"method="post">
+            <fieldset class="user-info">
+                <legend>User Info</legend>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="user@example.com">
+
+                <br>
+                <br>
+                <br>
+
+                <div class="password">
+                    <label for="password">Password</label>
+
+                    <input type="paswword" name="password" id="password">
+
+
+                </div>
+
+                <br>
+                <br>
+
+                <div class="age">
+                    <label for="age">Age</label>
+
+                    <select name="age" id="age">
+                        <option value=" "> --Select Age--</option>
+                        <option value="group1">18 and under</option>
+                        <option value="group2">19-30</option>
+                        <option value="group3">31-50</option>
+                        <option value="group4">51+</option>
+                    </select>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <div class="about-info">
+                    <label for="user-about">Tell us a little about yourself:</label>
+                    <br>
+                    <textarea name="user-about" id="userabout">Tell us what you enjoy!</textarea>
+                </div>
+
+                <p class="sign-up">
+                    <input type="checkbox" name="accept-tos" id="accept-tos" value="yes">I Agree
+
+                    <a href="#tos" target="_blank">Terms of Service</a>
+                </p>
+                
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+
+
+            </fieldset>
+        
+        
+        </form>
+    </body>
+
+</html>
