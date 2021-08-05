@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Practice #2</title>
+        <link rel="stylesheet" href="css/default.css">
+    </head>
+
+    <body>
+
+        <header>
+            Welcome to the Omaha Sports Complex Center.
+            <br>
+             Fill out a the form to make a reservation
+        </header>
+
+        <section>
+
+            <form action="/target.php" method="GET">
+                <fieldset>
+                    <legend>Member Demographics</legend>
+                       <label for="firstName">First Name</label> 
+                        <input type="text" id="firstName" name="firstName">
+
+                        <label for="lastName">Last Name</label> 
+                        <input type="text" id="lastName" name="lastName">
+
+                        <p>Are you a current member?</p>
+
+                        <input type="radio" name="membership" value="member" checked >Member
+                        <input type="radio" name="membership" value="non-member">Non-Member
+
+                        <br>
+                        <br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="name@domain.com">
+                </fieldset>
+
+                <fieldset class="container">
+                    <legend>Reservation Details</legend>
+
+                    <label for="activity:">Activity</label>
+                        <select>
+                            <optgroup label="Kid Activites">
+                                <option value="flag-football">Flag Football</option>
+                                <option value="kickball">Kickball</option>
+                                <option value="track">Run Track</option>
+                                <option value="littleb">Little League Baseball</option>
+                            </optgroup>
+                            
+                            <optgroup label="Adult Activites">
+                                <option value="tennis">Flag Football</option>
+                                <option value="basketball">Kickball</option>
+                                <option value="track">Run Track</option>
+                                <option value="badmiton">Little League Baseball</option>
+                            </optgroup> 
+                        </select>
+
+                        <p>Select a reservation date and time</p>
+                        <input type="date" name="resDate" required>
+                        <input type="time" name="resTime" required>
+
+                        <br>
+                        <br>
+
+                        <input type="checkbox" name="tos" id="tos" required>
+                        I agree to the Omaha Sports Complex Center's <a href="#tos">Terms of Service</a>
+                            <br>
+                            <br>
+                        <button type="submit">Submit</button>
+
+
+
+                </fieldset>
+            
+            </form>
+        
+        </section>
+
+    </body>
+</html>
