@@ -11,6 +11,7 @@ header{
     top: 0;
     left: 0;
     width: 100vw;
+    height: 7vh;
     display: flex;
     justify-content: space-between;
     z-index: 2;
@@ -32,13 +33,29 @@ header{
 
 
 nav{
-    margin-right: 8vw;
+    position: fixed;
+    margin: 0;
+    top: 4%;
+    left: 28%;
 }
 
 nav>a{
     color: brown;
     text-decoration: none;
     margin: 10px;
+}
+
+.nav2{
+    position: fixed;
+    margin: 0;
+    top: 4%;
+    left: 75%;
+    
+}
+
+.nav2>a{
+    text-decoration: none;
+    color: brown;
 }
 
 
@@ -87,8 +104,10 @@ p{
 }
 
 i{
-    left: 50%;
-    top: 50%;
+    position: absolute;
+    left: 60.5%;
+    top: 51.5%;
+    color: white;
 }
 
 
