@@ -1,3 +1,9 @@
+body,
+html{
+    font-family: 'Oswald', sans-serif ;
+}
+
+
 header{
     background-color: white;
     padding: 25px;
@@ -14,6 +20,13 @@ header{
     background-image: url('../images/hw-background.jpg');
     height: 100vh;
     width: 100vw;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -28,11 +41,12 @@ nav>a{
     margin: 10px;
 }
 
+
 .dropdown{
-    color: brown;
+    background-color:rgb(70, 44, 44);
     padding: 25px;
     position: fixed;
-    top: 15%;
+    top: 7%;
     left: 0;
     width: 100vw;
     display: flex;
@@ -40,20 +54,41 @@ nav>a{
     z-index: 2;
 }
 
+.logo{
+    float: left;
+    margin-top: 4px;
+    padding-top: .5em;
+    padding-right: 1em;
+    z-index: 10;
+}
+
+.dropdown>p{
+    top: 5%;
+    font-size: small;
+    left: 40%;
+}
+
 h4{
     color: white;
     position: absolute;
-    top: 38%;
+    top: 34%;
     left: 33%;
     font-size: 3.5rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 p{
     color: white;
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 32%;
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 1.8rem;
+    font-weight: 200;
 }
+
+i{
+    left: 50%;
+    top: 50%;
+}
+
+
