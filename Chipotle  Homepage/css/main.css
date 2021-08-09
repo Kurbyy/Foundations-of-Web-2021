@@ -30,8 +30,8 @@ header{
     background-repeat: no-repeat;
 }
 
-.logo{
-    position: fixed;
+img{
+    height: 10vh;
 }
 
 
