@@ -30,6 +30,10 @@ header{
     background-repeat: no-repeat;
 }
 
+.logo{
+    position: fixed;
+}
+
 
 
 nav{
@@ -58,6 +62,12 @@ nav>a{
     color: brown;
 }
 
+.nav2>i{
+    color: brown;
+    position: fixed;
+    top: 4.5%;
+    left: 73.5%;
+}
 
 .dropdown{
     background-color:rgb(70, 44, 44);
@@ -71,18 +81,18 @@ nav>a{
     z-index: 2;
 }
 
-.logo{
-    float: left;
-    margin-top: 4px;
-    padding-top: .5em;
-    padding-right: 1em;
-    z-index: 10;
-}
 
 .dropdown>p{
     top: 5%;
     font-size: small;
     left: 40%;
+}
+
+.dropdown>i{
+    color: white;
+    position: fixed;
+    top: 8.5%;
+    left: 50%;
 }
 
 h4{
