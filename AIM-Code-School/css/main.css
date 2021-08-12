@@ -1,0 +1,19 @@
+html{
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+}
+body{
+    margin: 0;
+    background-color: #f0f0f0;
+}
+nav{
+    background-color: #000060;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
