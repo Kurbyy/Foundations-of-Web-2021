@@ -6,6 +6,11 @@ body{
     margin: 0;
     background-color: #f0f0f0;
 }
+
+#mobile-menu{
+    display: none;
+}
+
 nav{
     background-color: #000060;
     box-sizing: border-box;
@@ -208,6 +213,48 @@ Responsive CSS
 */
 
 @media only screen and (max-width: 700px){
+
+    #mobile-menu{
+        display: block;
+        position: fixed;
+        right: 2vw;
+        top: 0;
+        font-size: 2rem;
+        color: white;
+        z-index: 2;
+    }
+
+    nav{
+        display: none;
+        right: 2vw;
+        top: 4rem;
+        font-size: 1em;
+        align-items: center;
+    }
+
+    #mobile-menu:target~nav{
+        display: flex;
+        flex-direction: column;
+        padding: 0.5em;
+    }
+
+    nav>a{
+        border: 0;
+        padding: .5em;
+    }
+
+    nav>div{
+        margin-top: 1em;
+    }
+
+    div>a{
+        border: 0;
+    }
+
+    header{
+        margin-top: 0;
+    }
+
     #intro,
     .boxes{
         flex-direction: column;
@@ -222,5 +269,6 @@ Responsive CSS
         margin-bottom: 2em;
     }
 }
+
 
 

@@ -66,7 +66,7 @@ main a{
     width: 20ch;
     border: 3px solid transparent;
     border-image: linear-gradient(90deg, blue, lightblue, turquoise);
-    border-image-slice: block;
+    border-image-slice: 30%;
     display: inline-block;
     color: inherit;
     text-shadow: 1px 1px #303030;
@@ -84,9 +84,9 @@ main>h1{
     color: white;
 }
 
-.teaser> div:last-child{
 
-}
+
+
 
 .teaser{
     position: absolute;
