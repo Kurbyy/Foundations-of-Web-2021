@@ -22,9 +22,9 @@ var toDoList = ["Learn JavaScript", "Practice JavaScript", "Master JavaScript"];
 
 function toDoListLength() {
     console.log("Our to do list array has " + toDoList.length + " elements");
-    console.log(toDoList(0));
-    console.log(toDoList(1));
-    console.log(toDoList(2));
+    console.log(toDoList[0]);
+    console.log(toDoList[1]);
+    console.log(toDoList[2]);
 }
 toDoListLength();
 

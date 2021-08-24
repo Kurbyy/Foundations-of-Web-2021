@@ -22,7 +22,7 @@ var animal = {
     color: "orange",
     weight: 300,
     diet: "carne",
-    var activities = new Array("running", "hunting", "playing");
+ 
   
 };
 
