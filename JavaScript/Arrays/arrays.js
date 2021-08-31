@@ -26,3 +26,4 @@ console.log(fruits);
 console.log(removedElement)
 
 console.log("The length of our fruits array is " + fruits.length);
+
