@@ -1,0 +1,56 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;  
+}
+
+body{
+    background-color: rgb(223, 94, 116);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+}
+
+h1{
+    border: 4px dashed purple;
+    padding: .5em;
+    background-color: lightpink;
+    width: 20vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% + 3vh));
+    color: white;
+    
+   
+}
+
+input{
+    width: 20vw;
+    height: 50px;
+    margin-top: 10vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 0 5px 2px;
+    color: hotpink;
+}
+
+input:focus{
+    outline: none;
+}
+
+li{
+    list-style: none;
+    font-size: 40px;
+    color: purple;
+}
+
+li:hover{
+    text-decoration: line-through;
+}
+
+
