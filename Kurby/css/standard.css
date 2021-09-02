@@ -32,6 +32,7 @@ nav{
     display: flex;
     align-items: flex-end;
     margin-top: 15vh;
+    margin-right: 10vw;
     
 
 }
@@ -44,6 +45,7 @@ nav>a{
     text-decoration: none;
     text-transform: uppercase;
     
+    
 
 }
 
@@ -55,6 +57,12 @@ nav>a{
     margin-bottom: 0.5em;
     
    
+}
+
+div>span>a{
+    color: white;
+    text-decoration: none;
+    
 }
 
 
@@ -71,27 +79,17 @@ nav>a{
     background-attachment: fixed;
 }
 
-main{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
-    text-align: center;
-    text-transform: uppercase;
-    white-space: nowrap;
+.paragraphs{
     
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    font-size: xx-large;
 }
 
 h1{
-    
-    margin-top: 10%;
-    margin-left: 10%;
-}
-
-p{
-    margin-top: 10%;
-    margin-left: 6%;
-    font-size: large;
-    
+    position: absolute;
+    top: 15%;
+    left: 27%;
+    font-size: 75px;
 }

@@ -39,8 +39,35 @@
 
                     $("#display3").removeClass(presentClassName).addClass(newClassName);
                 });
+
+                function myFunction() {
+                 var x = document.getElementById("myDIV");
+                if (x.style.display === "none") {
+                x.style.display = "block";
+                } else {
+                x.style.display = "none";
+                }
+            }
+            
             })
         </script>
+
+        <script>
+            $(document).ready(function () {
+                $('#bt').click(function () {
+                    let empName = $('#emp').val();
+            $('#lblEmp').html(' <span style="text-transform:capitalize;">' + empName + '</span>');
+        });
+    });
+        </script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#btn").click(function () {
+            $("#Create").toggle();
+        });
+    });
+    </script>
      
     </head>
 
@@ -62,6 +89,40 @@
         <p id="display2" class="my-para">This is with the my-para class. Click to change my background color.</p>
 
         <p id="display3">Click here to toggle the background color of the element</p>
+
+        <br>
+        <br>
+
+        <button onclick="myFunction()">Click Me</button>
+
+        <div id="myDIV">
+            This is my DIV element.
+        </div>
+
+        <br>
+        <br>
+
+        <input type="text" id="emp" value="" />
+        <p>
+        <input type="button" id="bt" value="Change Label Text" />
+        </p>
+        <label id="lblEmp"></label>
+
+        <br>
+        <br>
+
+    <!--<textarea></textarea>-->
+
+        <br>
+        <br>
+
+        <div>
+            <input type="button" id="btn" class="btn btn-default" value="click me">
+            </div>
+            
+            <div id="Create" style="display:none">
+            OMG! I GOT IT!
+            </div>
 
     </body>
 </html>
