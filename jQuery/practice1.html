@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'/>
+        <title>JQuery Practice</title>
+        <link rel="stylesheet" href="css/standard.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script>
+            $(function() {
+                $("#my-b").click(function() {
+                    //The html() method sets or returns the content (innerHTML) of the selected elements.
+                    $("#display1").html("Welcome to AIM Code School!")
+                });
+
+                $('.t_input').click(function() {
+                    //The css() method sets or returns one or more style properties for the selected elements.
+                    $(this).css("background-color", "yellow");
+                }); 
+                
+                $("#display2").click(function() {
+                    $("#display2").remove
+                    ("my-para").addClass
+                    ("my-para2");
+                }); 
+                
+                $('#display3').addClass
+                ('my-para4')
+                $("#display3").click(function() {
+                    var presentClassName = $
+                    ("#display3").attr('class');
+
+                    if(presentClassName == 
+                    "my-para4") {
+                        var newClassName = "my=para3"
+                    } else {
+                        var newClassName = "my-para4"
+                    }
+
+                    $("#display3").removeClass(presentClassName).addClass(newClassName);
+                });
+            })
+        </script>
+     
+    </head>
+
+    <body>
+
+        <button type="button" id="my-b">Click Me!</button>
+        <span id="display1"></span>
+
+        <br>
+        <br>
+
+        <input type="text" class="t_input" id="t1">
+        <input type="text" class="t_input" id="t2">
+        <input type="text" class="t_input" id="t3">
+
+        <br>
+        <br>
+
+        <p id="display2" class="my-para">This is with the my-para class. Click to change my background color.</p>
+
+        <p id="display3">Click here to toggle the background color of the element</p>
+
+    </body>
+</html>

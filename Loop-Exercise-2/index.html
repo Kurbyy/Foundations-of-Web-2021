@@ -3,8 +3,20 @@
     <head>
         <meta charset='utf-8' />
         <title>Sum the multiples program</title>
+
+        <script>
+            var sum = 0;
+            var limit = 1000;
+            for(var i = 0; 1 < limit; i++){
+                if(i % 2 === 0 || i % 6 === 0) {
+                    sum += i;
+                }
+            }
+
+            console.log("The Sum is " + sum)
+        </script>
     </head>
     <body>
-        <script src="index.js"></script>
+        
     </body>
 </html>
