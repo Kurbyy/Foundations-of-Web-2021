@@ -48,6 +48,11 @@
                 x.style.display = "none";
                 }
             }
+
+                $("#my-button").click(function() {
+                    var my_string = $("#text-input").val();
+                    $("#my-button").html(my_string)
+                });
             
             })
         </script>
@@ -67,6 +72,15 @@
             $("#Create").toggle();
         });
     });
+    </script>
+
+    <script>
+
+        $("#my-b2").click(function() {
+            $("#display4").toggle();
+    });
+    
+
     </script>
      
     </head>
@@ -123,6 +137,17 @@
             <div id="Create" style="display:none">
             OMG! I GOT IT!
             </div>
+
+        <br>
+        <br>
+        
+        <button id="my-b2" type="text">Show & Hide</button>
+        <br>
+
+        <div style="color: teal;" id="display4">AIM Code School</div>
+
+        <input type="text" name="text-input" id="text-input">
+        <button type="button" id="my-button">Mirror Button</button>
 
     </body>
 </html>

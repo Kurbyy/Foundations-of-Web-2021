@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'/>
+        <title>JQuery Practice</title>
+        <link rel="stylesheet" href="css/standard.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script>
+            $(function() {
+                $("#t2").keyup(function() {
+                    var string2 = $("#t2").val();
+                    $("#display5").html(string2.length)
+                });
+            });
+
+
+        </script>
+     
+    </head>
+
+    <body>
+        <textarea name="t2" id="t2" class="form-control"></textarea>
+
+        <div id="display5"></div>
+      
+
+    </body>
+</html>
