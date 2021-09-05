@@ -93,3 +93,26 @@ h1{
     left: 27%;
     font-size: 75px;
 }
+
+/*intro page*/
+#intromain{
+    color: black;
+}
+
+
+
+/*faq page*/
+#faqmain{
+    color: black;
+}
+#faqmain>p{
+    color: black;
+}
+
+
+
+/*services page*/
+
+
+
+/*contact page*/
