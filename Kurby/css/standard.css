@@ -70,7 +70,7 @@ div>span>a{
 #main{
     font-family: 'Permanent Marker', cursive;
     color:white;
-    background-image: url("../images/gmk_wob_hiragana_yuri_tokyo60_ortho_top_wqhd_1024x1024@2x.png");
+    background-image: url("../images/alexotos.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -82,7 +82,7 @@ div>span>a{
 .paragraphs{
     
     position: absolute;
-    top: 55%;
+    top: 35%;
     left: 22%;
     font-size: xx-large;
 }
@@ -95,24 +95,196 @@ h1{
 }
 
 /*intro page*/
-#intromain{
-    color: black;
+
+.introcontainer{
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+    background-image: url("../images/DSC08163-1400x825.webp");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    
 }
+
+.introcontainer>div>h1{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    font-size: 50px;
+}
+
+.introcontainer>div>p{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: left;
+    font: bold;
+}
+
+
+
 
 
 
 /*faq page*/
-#faqmain{
-    color: black;
-}
-#faqmain>p{
-    color: black;
+.faqcontainer{
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+    background-image: url("../images/wp8737355.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    
 }
 
+.faqcontainer>div>h1{
+    position: absolute;
+    top: 15%;
+    left: 47%;
+    font-size: 75px;
+}
 
+.faqcontainer>div>p{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.faqcontainer>div>p:nth-child(2){
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.faqcontainer>div>p:nth-child(3){
+    position: absolute;
+    top: 70%;
+    left: 22%;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.faqcontainer>div>p:nth-child(4){
+    position: absolute;
+    top: 90%;
+    left: 22%;
+    font-size: 20px;
+    vertical-align: middle;
+}
 
 /*services page*/
+
+.servicescontainer{
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+    background-image: url("../images/dyi_1_blog.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    
+}
+
+.servicescontainer>div>h1{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    font-size: 75px;
+}
+
+.servicescontainer>div>p{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.servicescontainer>div>p:nth-child(2){
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.servicescontainer>div>p:nth-child(3){
+    position: absolute;
+    top: 70%;
+    left: 22%;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
 
 
 
 /*contact page*/
+
+
+/*footer*/
+
+img{
+    height: 10vh;
+    position: fixed;
+    margin-left: 30vw;
+    margin-top: 0;
+    
+}
+
+
+footer{
+    
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    height: 10vh;
+    width: 100vw;
+   
+}
+
+.footer{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 15vh;
+    margin-right: 10vw;
+    
+
+}
+
+.footer>a{
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+    margin-left: 2ch;
+    margin-top: .5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
+
+}
+
+
+#socials{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30vw;
+    margin-bottom: 0.5em;
+    
+   
+}
