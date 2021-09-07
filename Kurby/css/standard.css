@@ -3,7 +3,7 @@ body{
     margin: 0;
     color: white;
     font-size: 1.8vh;
-    font-family: sans-serif;
+    
 }
 
 img{
@@ -69,7 +69,7 @@ div>span>a{
 
 #main{
     font-family: 'Permanent Marker', cursive;
-    color:white;
+    color:#6c89db;
     background-image: url("../images/alexotos.jpg");
     background-repeat: no-repeat;
     background-position: center top;
@@ -80,25 +80,33 @@ div>span>a{
 }
 
 .paragraphs{
-    
+    font-family: 'Concert One', cursive;
     position: absolute;
     top: 35%;
     left: 22%;
     font-size: xx-large;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(2, 2, 10, 0.445);
+    border-style: double;
+    border-color: black;
 }
 
 h1{
+    color: #6c89db;
+    font-family: 'Concert One', cursive;
     position: absolute;
     top: 15%;
     left: 27%;
     font-size: 75px;
+    text-align: center;
 }
 
 /*intro page*/
 
 .introcontainer{
     font-family: 'Permanent Marker', cursive;
-    color:white;
+    color:black;
     background-image: url("../images/DSC08163-1400x825.webp");
     background-repeat: no-repeat;
     background-position: center top;
@@ -110,20 +118,26 @@ h1{
 }
 
 .introcontainer>div>h1{
+    color: honeydew;
     position: absolute;
     top: 15%;
     left: 25%;
     font-size: 50px;
+    
 }
 
 .introcontainer>div>p{
+    font-family: 'Fredoka One', cursive;
     position: absolute;
     top: 30%;
     left: 2%;
-    font-size: 20px;
-    vertical-align: middle;
-    text-align: left;
+    font-size: 18px;
     font: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(240, 255, 240, 0.493);
+    border-style: groove;
+    border-color: grey;
 }
 
 
@@ -146,48 +160,58 @@ h1{
 }
 
 .faqcontainer>div>h1{
+    color: white;
     position: absolute;
     top: 15%;
-    left: 47%;
+    left: 45%;
     font-size: 75px;
 }
 
 .faqcontainer>div>p{
+    color: black;
+    font-family: 'Fredoka One', cursive;
     position: absolute;
     top: 30%;
-    left: 22%;
+    left: 10%;
     font-size: 20px;
-    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(240, 255, 240, 0.514);
+    border-style: groove;
+    border-color: grey;
 }
 .faqcontainer>div>p:nth-child(2){
     position: absolute;
     top: 50%;
-    left: 22%;
+    left: 10%;
     font-size: 20px;
-    vertical-align: middle;
+    
+    text-align: center;
 }
 
 .faqcontainer>div>p:nth-child(3){
     position: absolute;
     top: 70%;
-    left: 22%;
+    left: 10%;
     font-size: 20px;
-    vertical-align: middle;
+    
+    text-align: center;
 }
 
 .faqcontainer>div>p:nth-child(4){
     position: absolute;
     top: 90%;
-    left: 22%;
+    left: 10%;
     font-size: 20px;
-    vertical-align: middle;
+    
+    text-align: center;
 }
 
 /*services page*/
 
 .servicescontainer{
     font-family: 'Permanent Marker', cursive;
-    color:white;
+    color:black;
     background-image: url("../images/dyi_1_blog.jpg");
     background-repeat: no-repeat;
     background-position: center top;
@@ -199,33 +223,45 @@ h1{
 }
 
 .servicescontainer>div>h1{
+    color: honeydew;
     position: absolute;
     top: 15%;
     left: 42%;
     font-size: 75px;
+    
 }
 
 .servicescontainer>div>p{
+    font-family: 'Fredoka One', cursive;
     position: absolute;
     top: 30%;
-    left: 22%;
+    left: 5%;
     font-size: 20px;
     vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(240, 255, 240, 0.568);
+    border-style: groove;
+    border-color: grey;
 }
 .servicescontainer>div>p:nth-child(2){
     position: absolute;
     top: 50%;
-    left: 22%;
+    left: 5%;
     font-size: 20px;
     vertical-align: middle;
+    text-align: center;
+    
 }
 
 .servicescontainer>div>p:nth-child(3){
     position: absolute;
     top: 70%;
-    left: 22%;
+    left: 5%;
     font-size: 20px;
     vertical-align: middle;
+    text-align: center;
+    
 }
 
 
