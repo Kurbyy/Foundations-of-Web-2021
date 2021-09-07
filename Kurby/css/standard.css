@@ -178,28 +178,30 @@ h1{
     color: black;
     font-family: 'Fredoka One', cursive;
     position: absolute;
-    top: 30%;
-    left: 10%;
+    top: 36%;
+    left: 25%;
     font-size: 20px;
     text-align: center;
-    padding: 10px;
-    background-color: rgba(240, 255, 240, 0.514);
+    padding: 1px;
+    
+    background-color: rgba(240, 255, 240, 0.712);
     border-style: groove;
     border-color: grey;
+    height: 15vh;
+    width: 20vw;
 }
 .faqcontainer>div>p:nth-child(2){
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top: 65%;
+    left: 25%;
     font-size: 20px;
-    
     text-align: center;
 }
 
 .faqcontainer>div>p:nth-child(3){
     position: absolute;
-    top: 70%;
-    left: 10%;
+    top: 35%;
+    left: 55%;
     font-size: 20px;
     
     text-align: center;
@@ -207,8 +209,8 @@ h1{
 
 .faqcontainer>div>p:nth-child(4){
     position: absolute;
-    top: 90%;
-    left: 10%;
+    top: 65%;
+    left: 55%;
     font-size: 20px;
     
     text-align: center;
@@ -242,19 +244,21 @@ h1{
     font-family: 'Fredoka One', cursive;
     position: absolute;
     top: 30%;
-    left: 5%;
+    left: 30%;
     font-size: 20px;
     vertical-align: middle;
     text-align: center;
     padding: 10px;
-    background-color: rgba(240, 255, 240, 0.568);
+    background-color: rgba(240, 255, 240, 0.842);
     border-style: groove;
     border-color: grey;
+    height: 15vh;
+    width: 40vw;
 }
 .servicescontainer>div>p:nth-child(2){
     position: absolute;
     top: 50%;
-    left: 5%;
+    
     font-size: 20px;
     vertical-align: middle;
     text-align: center;
@@ -264,7 +268,7 @@ h1{
 .servicescontainer>div>p:nth-child(3){
     position: absolute;
     top: 70%;
-    left: 5%;
+    
     font-size: 20px;
     vertical-align: middle;
     text-align: center;
@@ -301,8 +305,13 @@ h1{
     width: 375px;
     left: 25%;
     top: 35%;
+    transition: 1s;
     
 }
+#kbd67lite img:hover{
+    transform: scale(2);
+}
+
 #kbd67lite>h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: fixed;
@@ -331,8 +340,13 @@ h1{
     width: 375px;
     left: 1%;
     top: 70%;
+    transition: 1s;
     
 }
+#kara img:hover{
+    transform: scale(2);
+}
+
 #kara>h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: fixed;
