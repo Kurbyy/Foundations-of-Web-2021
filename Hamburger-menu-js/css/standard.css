@@ -1,0 +1,85 @@
+html,
+body{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1px;  
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0px;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+
+}
+
+.hamburger{
+    position: absolute;
+}
+
+span{
+    font-weight: 400;
+}
+
+.hamburger::after,
+.hamburger::before{
+    content: '';
+    display: block;
+    background: #ebebd3;
+    height: 3px;
+    width: 2em;
+    border-radius: 3px;
+    transition: ease-in-out (350ms);
+}
+
+.hamburger::before{
+    transform: translateY(-7px);
+    -webkit-transform: translateY(-7px);
+}
+.hamburger::after{
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+}
+
+.open, .hamburger {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+.open, .hamburger::before{
+    display: none;
+}
+.open, .hamburger::after{
+    -webkit-transform: translateY(-1px) rotate(-90deg);
+        transform: translateY(-1px) rotate(-90deg);
+}
+
+ul{
+    flex-direction: column;
+    list-style-type: none;
+    display: none;
+}
+
+ul>.opening{
+    display: block;
+    height: 50px;
+}
+
+li{
+    border-bottom: 1px solid #f6f4e2;
+}
+li:nth-child(5){
+    border-bottom: none;
+}
+
+
+
+
+
