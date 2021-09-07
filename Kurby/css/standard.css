@@ -81,7 +81,7 @@ div>span>a{
 
 .paragraphs{
     font-family: 'Concert One', cursive;
-    position: absolute;
+    position: fixed;
     top: 35%;
     left: 22%;
     font-size: xx-large;
@@ -95,7 +95,7 @@ div>span>a{
 h1{
     color: #6c89db;
     font-family: 'Concert One', cursive;
-    position: absolute;
+    position: fixed;
     top: 15%;
     left: 27%;
     font-size: 75px;
@@ -131,13 +131,20 @@ h1{
     position: absolute;
     top: 30%;
     left: 2%;
-    font-size: 18px;
+    font-size: 25px;
     font: bold;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: rgba(240, 255, 240, 0.493);
     border-style: groove;
     border-color: grey;
+}
+
+.case{
+    position: fixed;
+    top: 65%;
+    left: 50%
+
 }
 
 
@@ -268,6 +275,84 @@ h1{
 
 
 /*contact page*/
+
+.pastbuildscontainer{
+    background-image: url("../images/desk.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+.pastbuildscontainer>div>h1{
+    color: white;
+    position: fixed;
+    left: 40%;
+    top: 15%;
+}
+
+#kbd67lite img{
+    display: block;
+    max-width: 100%;
+    position: fixed;
+    height: 250px;
+    width: 375px;
+    left: 25%;
+    top: 35%;
+    
+}
+#kbd67lite>h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    color: white;
+    left: 33%;
+    top: 35%;
+}
+#kbd67lite>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: 800;
+    position: fixed;
+    color: white;
+    left: 33%;
+    top: 43%;
+    text-align: left;
+    height: 20vh;
+    width: 20vw;
+}
+
+#kara img{
+    display: block;
+    max-width: 100%;
+    position: fixed;
+    height: 250px;
+    width: 375px;
+    left: 1%;
+    top: 70%;
+    
+}
+#kara>h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    color: white;
+    left: 55%;
+    top: 70%;
+}
+#kara>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: 800;
+    position: fixed;
+    color: white;
+    left: 55%;
+    top: 78%;
+    text-align: left;
+    height: 20vh;
+    width: 20vw;
+}
+
 
 
 /*footer*/
