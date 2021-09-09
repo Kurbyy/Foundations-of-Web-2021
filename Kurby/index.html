@@ -10,6 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <!--Font Awesome CSS-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--Jquery/JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btn").click(function () {
+                $("#Create").toggle();
+            });
+        });
+    </script>
 </head>
 <body>
     <div id="homePage">
@@ -21,6 +31,8 @@
                     <img src="images/Kurby.png">
                 </a>
             </span>
+
+            
 
             <nav class="primary-nav">
                 
@@ -63,8 +75,20 @@
             </p>
             </div>
 
+            <div class="iframe-container2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8ZwmdU-cgY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
             </main>  
         </section>
+
+        <div>
+            <input type="button" id="btn" class="btn-default" value="click me">
+            </div>
+
+            <div id="Create" style="display:none">
+            Beware of Custom Keyboard Rabbit Hole!
+        </div>
 
 
     </div>
@@ -72,13 +96,6 @@
 </body>
 
 <footer>
-        
-
-    <span>
-        <a href="index.html">
-            <img src="images/Kurby.png">
-        </a>
-    </span>
 
     <nav class="footer">
         

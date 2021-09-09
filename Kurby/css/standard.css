@@ -83,8 +83,8 @@ div>span>a{
     font-family: 'Concert One', cursive;
     position: fixed;
     top: 35%;
-    left: 22%;
-    font-size: xx-large;
+    left: 35%;
+    font-size: large;
     text-align: center;
     padding: 5px;
     background-color: rgba(2, 2, 10, 0.445);
@@ -101,6 +101,28 @@ h1{
     font-size: 75px;
     text-align: center;
 }
+
+.iframe-container2 iframe{
+    position: fixed;
+    top:50%;
+    left: 33%;
+    width: 37%;
+    height: 33%;
+  }
+
+  .btn-default{
+    position: fixed;
+    top: 85%;
+    left: 50%;
+  }
+  #Create{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      position: fixed;
+      top: 88%;
+      left: 35%;
+      color: white;
+      font-size: xx-large;
+  }
 
 /*intro page*/
 
@@ -129,24 +151,27 @@ h1{
 .introcontainer>div>p{
     font-family: 'Fredoka One', cursive;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 2%;
     font-size: 25px;
     font: bold;
     text-align: center;
     padding: 20px;
-    background-color: rgba(240, 255, 240, 0.493);
+    background-color: rgba(240, 255, 240, 0.726);
     border-style: groove;
     border-color: grey;
+    
 }
 
-.case{
+
+  
+  .iframe-container iframe{
     position: fixed;
-    top: 65%;
-    left: 50%
-
-}
-
+    top:30%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+  }
 
 
 
@@ -234,6 +259,7 @@ h1{
 .servicescontainer>div>h1{
     color: honeydew;
     position: absolute;
+
     top: 15%;
     left: 42%;
     font-size: 75px;
@@ -370,56 +396,286 @@ h1{
 
 
 /*footer*/
-
-img{
-    height: 10vh;
+.footer{
     position: fixed;
-    margin-left: 30vw;
-    margin-top: 0;
-    
-}
-
-
-footer{
-    
-    position: fixed;
-    top:0;
+    bottom:0;
     left: 0;
     display: flex;
     justify-content: center;
     background-color:black;
-    height: 10vh;
+    height: 5vh;
     width: 100vw;
-   
-}
-
-.footer{
-    display: flex;
-    align-items: flex-end;
-    margin-top: 15vh;
-    margin-right: 10vw;
-    
-
-}
-
-.footer>a{
-    font-family: 'Permanent Marker', cursive;
-    color:white;
-    margin-left: 2ch;
-    margin-top: .5em;
-    text-decoration: none;
-    text-transform: uppercase;
-    
-    
-
 }
 
 
-#socials{
-    display: flex;
-    flex-direction: column;
-    margin-left: 30vw;
-    margin-bottom: 0.5em;
+@media only screen and (max-width: 768px){
     
-   
+
+    /*Home page*/
+
+    .paragraphs{
+        font-family: 'Concert One', cursive;
+        position: fixed;
+        top: 35%;
+        left: 22%;
+        font-size: large;
+        text-align: center;
+        padding: 5px;
+        background-color: rgba(2, 2, 10, 0.705);
+        border-style: double;
+        border-color: black;
+    }
+    
+    h1{
+        color: #6c89db;
+        font-family: 'Concert One', cursive;
+        position: fixed;
+        top: 12%;
+        left: 27%;
+        font-size: 50px;
+        text-align: center;
+    }
+    .iframe-container2 iframe{
+        position: fixed;
+        top:55%;
+        left: 33%;
+        width: 60%;
+        height: 33%;
+      }
+
+    /*Intro page*/
+
+    .introcontainer{
+        font-family: 'Permanent Marker', cursive;
+        color:black;
+        background-image: url("../images/DSC08163-1400x825.webp");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        background-attachment: fixed;
+        
+    }
+    
+    .introcontainer>div>h1{
+        color: honeydew;
+        position: fixed;
+        top: 15%;
+        left: 15%;
+        font-size: 40px;
+        
+    }
+    
+    
+      .iframe-container iframe{
+        position: absolute;
+        top:35%;
+        left: 10%;
+        width: 80%;
+        height: 50%;
+      }
+
+
+    /*services*/
+
+    .servicescontainer{
+        font-family: 'Permanent Marker', cursive;
+        color:black;
+        background-image: url("../images/dyi_1_blog.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        background-attachment: fixed;
+        
+    }
+    
+    .servicescontainer>div>h1{
+        color: honeydew;
+        position: fixed;
+    
+        top: 12%;
+        left: 33%;
+        font-size: 50px;
+        
+    }
+    
+    .servicescontainer>div>p{
+        font-family: 'Fredoka One', cursive;
+        position: fixed;
+        top: 22%;
+        left: 22%;
+        font-size: 20px;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 50px;
+        background-color: rgba(240, 255, 240, 0.842);
+        border-style: groove;
+        border-color: grey;
+        height: 15vh;
+        width: 65vw;
+    }
+    .servicescontainer>div>p:nth-child(2){
+        position: fixed;
+        top: 47%;
+        padding-bottom: 30px;
+        font-size: 20px;
+        vertical-align: middle;
+        text-align: center;
+        
+    }
+    
+    .servicescontainer>div>p:nth-child(3){
+        position: fixed;
+        top: 70%;
+        
+        font-size: 18px;
+        vertical-align: middle;
+        text-align: center;
+        padding-bottom: 80px;
+        
+    }
+
+    /*faq page*/
+
+    .faqcontainer>div>p{
+        color: black;
+        font-family: 'Fredoka One', cursive;
+        position: fixed;
+        top: 30%;
+        left: 20%;
+        font-size: 18px;
+        text-align: center;
+        padding: 1px;
+        
+        background-color: rgba(240, 255, 240, 0.712);
+        border-style: groove;
+        border-color: grey;
+        padding-bottom: 60px;
+        height: 15vh;
+        width: 30vw;
+    }
+    .faqcontainer>div>p:nth-child(2){
+        position: absolute;
+        top: 65%;
+        left: 20%;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .faqcontainer>div>p:nth-child(3){
+        position: absolute;
+        top: 30%;
+        left: 55%;
+        font-size: 18px;
+        padding-bottom: 60px;
+        
+        text-align: center;
+    }
+    
+    .faqcontainer>div>p:nth-child(4){
+        position: absolute;
+        top: 65%;
+        left: 55%;
+        font-size: 18px;
+        padding-bottom: 60px;
+        
+        text-align: center;
+    }
+
+    /*Builds page*/
+    .pastbuildscontainer{
+        background-image: url("../images/desk.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        background-attachment: fixed;
+    }
+    
+    .pastbuildscontainer>div>h1{
+        color: white;
+        position: fixed;
+        left: 5%;
+        top: 15%;
+        font-size: xx-large;
+    }
+    
+    #kbd67lite img{
+        display: block;
+        max-width: 100%;
+        position: fixed;
+        height: 250px;
+        width: 375px;
+        left: -5%;
+        top: 32%;
+        transition: 1s;
+        
+    }
+    #kbd67lite img:hover{
+        transform: scale(1.5);
+    }
+    
+    #kbd67lite>h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        color: white;
+        left: 33%;
+        top: 15%;
+    }
+    #kbd67lite>p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        font-weight: 800;
+        position: fixed;
+        color: white;
+        left: 33%;
+        top: 20%;
+        text-align: left;
+        height: 20vh;
+        width: 40vw;
+    }
+    
+    #kara img{
+        display: block;
+        max-width: 100%;
+        position: fixed;
+        height: 250px;
+        width: 375px;
+        left: -5%;
+        top: 56%;
+        transition: 1s;
+        
+    }
+    #kara img:hover{
+        transform: scale(2);
+    }
+    
+    #kara>h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        color: white;
+        font-size: xx-large;
+        left: 33%;
+        top: 80%;
+    }
+    #kara>p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        font-weight: 800;
+        position: fixed;
+        color: white;
+        left: 33%;
+        top: 86%;
+        text-align: left;
+        height: 20vh;
+        width: 40vw;
+    }
+    
 }
+
+
